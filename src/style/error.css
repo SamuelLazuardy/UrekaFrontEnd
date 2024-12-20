@@ -1,0 +1,19 @@
+.containerError{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.errorTitle{
+    font-size: 5rem;
+    margin: 0;
+}
+
+.errorButton{
+    background-color: #0096FF;   
+    padding: 10px;
+    border-radius: 1rem;
+    color: white;
+}

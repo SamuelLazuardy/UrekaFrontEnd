@@ -1,0 +1,54 @@
+.containerContryDetail{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+    flex-direction: column;
+}
+
+.coatOfArms{
+    width: 15rem;
+    max-height: 25rem;
+}
+.flagDetail{
+    width: 15rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)
+}
+
+.contentCountryContiner{
+    display: flex;
+    flex-direction: column;
+}
+
+
+hr {
+    display: block;
+    border: 1px solid black;
+    margin: 40px 0px;
+}
+.aboutCountryConteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.aboutCountry{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    width: 50vw;
+}
+.subTitle{
+    font-size: 1.5rem;
+}
+.aboutCapital{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+.capitalContent{
+    margin-bottom: 5rem;
+}
+
+
+   

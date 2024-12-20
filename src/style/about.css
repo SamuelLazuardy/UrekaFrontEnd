@@ -1,0 +1,71 @@
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 4rem;
+}
+
+.aboutCountryImage{
+    width: 50rem;
+    height: 30rem;
+}
+
+hr{
+    display: block;
+    border: 1px solid black;
+    margin: 40px 0px;
+    width: 80vw;
+}
+
+.myCountryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutMyCountry{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+}
+.aboutCountryInfo{
+    display: flex;
+    gap: 5rem;
+}
+.imageMyCountry{
+    max-width: 400px;
+    max-height: 200px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3)
+}
+.myCountrySubTitle{
+    font-size: 1.5rem;
+}
+
+.contentAbout{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contentAboutMyCountry p{
+    padding: 0;
+}
+
+.sixCountryContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px; 
+    margin-bottom: 120px;
+}
+.sixCountryReason{
+    width: 200px;
+}
+.sixCountry{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
